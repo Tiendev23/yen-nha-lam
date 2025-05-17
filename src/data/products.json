@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Yến Sào Tinh Chế 100g",
+    "description": "Yến sạch, tinh chế thủ công, giữ nguyên dưỡng chất.",
+    "price": 1200000,
+    "image": "../assets/image/products/yen-100g.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Yến Sào Hũ 50g",
+    "description": "Yến sào hũ dễ sử dụng, tiện lợi.",
+    "price": 700000,
+    "image": "../assets/image/products/yen-hu-50g.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Yến Thô 50g",
+    "description": "Yến sạch, tinh chế thủ công, giữ nguyên dưỡng chất.",
+    "price": 650000,
+    "image": "../assets/image/products/yen-tho-100g.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Yến Sào Tinh Chế 200g",
+    "description": "Yến sạch, tinh chế thủ công, giữ nguyên dưỡng chất.",
+    "price": 2200000,
+    "image": "../assets/image/products/yen-100g.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yến Sào Hũ 100g",
+    "description": "Yến sào hũ dễ sử dụng, tiện lợi.",
+    "price": 1200000,
+    "image": "../assets/image/products/yen-100g.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Yến Thô 100g",
+    "description": "Yến sạch, tinh chế thủ công, giữ nguyên dưỡng chất.",
+    "price": 1200000,
+    "image": "../assets/image/products/yen-tho-100g.jpg"
+  }
+]

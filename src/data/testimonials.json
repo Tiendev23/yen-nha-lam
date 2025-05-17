@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn A",
+    "feedback": "Yến Nhà Làm chất lượng tuyệt vời, giao hàng nhanh và đóng gói rất cẩn thận!",
+    "avatar": "../assets/image/customer/customer1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị B",
+    "feedback": "Mình rất hài lòng với sản phẩm yến sào, cảm nhận rõ sự khác biệt so với các nơi khác.",
+    "avatar": "../assets/image/customer/customer2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lê Văn C",
+    "feedback": "Dịch vụ tư vấn nhiệt tình, sản phẩm chất lượng, sẽ tiếp tục ủng hộ!",
+    "avatar": "../assets/image/customer/customer3.jpg"
+  }
+]

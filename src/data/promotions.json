@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Giảm 20% cho đơn hàng đầu tiên",
+    "description": "Nhập mã YEN20 khi thanh toán để được giảm giá.",
+    "image": "../assets/image/promo/promo1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Miễn phí vận chuyển",
+    "description": "Cho đơn hàng từ 1 triệu đồng trở lên.",
+    "image": "../assets/image/promo/promo2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Tặng quà hấp dẫn",
+    "description": "Đơn hàng trên 2 triệu được tặng bộ dụng cụ pha chế.",
+    "image": "../assets/image/promo/promo3.jpg"
+  }
+]

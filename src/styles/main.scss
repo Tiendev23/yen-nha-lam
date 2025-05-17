@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'reset';
+
+/* Ví dụ dùng biến màu vàng làm nền primary */
+body {
+  background-color: $color-primary-light;
+  color: #222;
+}
+
+/* Style ví dụ cho button primary */
+.button-primary {
+  background-color: $color-primary;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
