@@ -6,6 +6,8 @@ import Products from './pages/Products'; // thay thế
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ProductDetail from './pages/ProductDetail';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         {/* Đổi trang About thành Products */}
         <Route path="/products" element={<Products />} />
         <Route path="/products/:category" element={<Products />} /> {/* Điều hướng đến trang sản phẩm với category */}
+        <Route path="/product/:id" element={<ProductDetail />} /> {/* Trang chi tiết sản phẩm */}
 
       </Routes>
       <Footer />

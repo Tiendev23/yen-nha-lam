@@ -54,5 +54,45 @@
     "price": 2000000,
     "category": "quà tặng",
     "image": "../assets/image/products/yen-100g.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Yến Sào Hũ Quà Tặng Đặc Biệt",
+    "description": "Hũ yến sào quà tặng đặc biệt, dành riêng cho người thân.",
+    "price": 2500000,
+    "category": "quà tặng",
+    "image": "../assets/image/products/yen-hu-50g.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Yến Sào Hũ Nguyên Chất Cao Cấp",
+    "description": "Hũ yến sào nguyên chất cao cấp, dinh dưỡng vượt trội.",
+    "price": 1800000,
+    "category": "yến sào nguyên chất",
+    "image": "../assets/image/products/yen-tho-100g.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Yến Sào Hũ Tinh Chế Cao Cấp",
+    "description": "Hũ yến sào tinh chế cao cấp, hương vị tự nhiên.",
+    "price": 1600000,
+    "category": "yến sào tinh chế",
+    "image": "../assets/image/products/yen-100g.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Yến Sào Hũ Thô Cao Cấp",
+    "description": "Hũ yến sào thô cao cấp, chất lượng tuyệt vời.",
+    "price": 1400000,
+    "category": "yến sào thô",
+    "image": "../assets/image/products/yen-hu-50g.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Yến Sào Hũ Quà Tặng Sang Trọng",
+    "description": "Hũ yến sào quà tặng sang trọng, dành cho người thân yêu.",
+    "price": 2200000,
+    "category": "quà tặng",
+    "image": "../assets/image/products/yen-tho-100g.jpg"
   }
 ]
