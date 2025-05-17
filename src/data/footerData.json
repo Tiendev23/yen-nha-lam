@@ -1,0 +1,22 @@
+{
+  "logoText": "Yến Nhà Làm",
+  "description": "Cam kết mang đến sản phẩm yến sào nguyên chất, chất lượng, và dịch vụ uy tín hàng đầu.",
+  "contact": {
+    "phone": "0909 123 456",
+    "email": "lienhe@yennhalam.vn",
+    "address": "123 Đường Yến Sào, Quận 1, TP.HCM"
+  },
+  "socials": [
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com",
+      "icon": "FaFacebookF"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com",
+      "icon": "FaInstagram"
+    },
+    { "name": "YouTube", "url": "https://youtube.com", "icon": "FaYoutube" }
+  ]
+}

@@ -1,25 +1,27 @@
+
 import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const [activePage, setActivePage] = useState('home');
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation(); // lấy đường dẫn hiện tại
 
-    const handleMenuToggle = () => setMenuOpen(prev => !prev);
+  const navLinks = [
+    { id: 'home', label: 'Trang chủ', to: '/' },
+    { id: 'products', label: 'Sản Phẩm', to: '/products' },
+    { id: 'contact', label: 'Liên hệ', to: '/contact' },
+  ];
 
-    const handleNavClick = (page) => {
-        setActivePage(page);
-        setMenuOpen(false);
-    };
+  const handleMenuToggle = () => setMenuOpen(prev => !prev);
 
-    const navLinks = [
-        { id: 'home', label: 'Trang chủ', href: '#home' },
-        { id: 'about', label: 'Giới thiệu', href: '#about' },
-        { id: 'contact', label: 'Liên hệ', href: '#contact' },
-    ];
+  const handleNavClick = () => {
+    setMenuOpen(false);
+  };
 
-    return (
-        <>
-            <style>{`
+  return (
+    <>
+
+      <style>{`
         header {
           background-color: #28a745;
           padding: 0.8rem 1.5rem;
@@ -120,32 +122,33 @@ function Header() {
         }
       `}</style>
 
-            <header>
-                <div className="logo">Yến Nhà Làm</div>
+      <header>
+        <div className="logo">Yến Nhà Làm</div>
 
-                <button
-                    className={`hamburger ${menuOpen ? 'open' : ''}`}
-                    onClick={handleMenuToggle}
-                    aria-label="Toggle menu"
-                >
-                    &#9776;
-                </button>
+        <button
+          className={`hamburger ${menuOpen ? 'open' : ''}`}
+          onClick={handleMenuToggle}
+          aria-label="Toggle menu"
+          aria-expanded={menuOpen}
+        >
+          &#9776;
+        </button>
 
-                <nav className={menuOpen ? 'open' : ''}>
-                    {navLinks.map(link => (
-                        <a
-                            key={link.id}
-                            href={link.href}
-                            onClick={() => handleNavClick(link.id)}
-                            className={activePage === link.id ? 'active' : ''}
-                        >
-                            {link.label}
-                        </a>
-                    ))}
-                </nav>
-            </header>
-        </>
-    );
+        <nav className={menuOpen ? 'open' : ''}>
+          {navLinks.map(link => (
+            <Link
+              key={link.id}
+              to={link.to}
+              onClick={handleNavClick}
+              className={location.pathname === link.to ? 'active' : ''}
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+      </header>
+    </>
+  );
 }
 
 export default Header;

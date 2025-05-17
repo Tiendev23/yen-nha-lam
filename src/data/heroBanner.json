@@ -1,7 +1,26 @@
-{
-  "image": "../assets/image/banner/banner-yen.jpg",
-  "title": "Yến Nhà Làm - Sức khỏe cho mọi nhà",
-  "subtitle": "Sản phẩm yến sào nguyên chất, tinh chế thủ công, giữ trọn dưỡng chất quý giá.",
-  "ctaText": "Mua ngay",
-  "ctaLink": "#products"
-}
+[
+  {
+    "id": 1,
+    "image": "../assets/image/banner/banner-yen.jpg",
+    "title": "Yến Nhà Làm - Sức khỏe cho mọi nhà",
+    "subtitle": "Sản phẩm yến sào nguyên chất, tinh chế thủ công, giữ trọn dưỡng chất quý giá.",
+    "ctaText": "Mua ngay",
+    "ctaLink": "#products"
+  },
+  {
+    "id": 2,
+    "image": "../assets/image/banner/banner-yen1.jpg",
+    "title": "Yến Sào Cao Cấp - Tinh túy thiên nhiên",
+    "subtitle": "Chất lượng hàng đầu với quy trình sản xuất nghiêm ngặt.",
+    "ctaText": "Khám phá ngay",
+    "ctaLink": "#products"
+  },
+  {
+    "id": 3,
+    "image": "../assets/image/banner/banner-yen2.jpg",
+    "title": "Ưu đãi lớn cho khách hàng thân thiết",
+    "subtitle": "Nhận ngay quà tặng và voucher giảm giá hấp dẫn.",
+    "ctaText": "Đăng ký nhận ưu đãi",
+    "ctaLink": "#contact"
+  }
+]

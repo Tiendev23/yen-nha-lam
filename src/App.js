@@ -1,19 +1,25 @@
 import React from 'react';
-import './styles/main.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+// import About from './pages/About'; // không dùng nữa
+import Products from './pages/Products'; // thay thế
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home';
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <main>
-        <Home />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* Đổi trang About thành Products */}
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:category" element={<Products />} /> {/* Điều hướng đến trang sản phẩm với category */}
+
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
